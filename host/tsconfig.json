@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "outDir": "libs/bundles-manager",
+    "declaration": true,
+    "declarationDir": "libs/bundles-manager"
+  },
+  "include": ["libs/bundles-manager/**/*"],
+  "exclude": ["libs/bundles-manager/node_modules"]
+}

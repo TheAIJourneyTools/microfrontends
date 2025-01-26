@@ -1,0 +1,25 @@
+{
+  "name": "host",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-remote": "npm run build --workspace libs/bundles-manager && node ./libs/bundles-manager/index.js",
+    "dev": "npm run dev --workspace apps/app"
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "ncp": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "fs": "^0.0.1-security"
+  }
+}

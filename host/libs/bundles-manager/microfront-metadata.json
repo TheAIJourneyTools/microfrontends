@@ -1,0 +1,4 @@
+{
+  "mf-dashboard": { "host": "http://localhost:3001" },
+  "mf-profile": { "host": "http://localhost:3002" }
+}

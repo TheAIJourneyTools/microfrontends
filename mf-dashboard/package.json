@@ -1,0 +1,24 @@
+{
+  "name": "mf-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace public-components/dashboard && npm run prepare-bundles",
+    "dev": "npm run dev --workspace apps/app",
+    "prepare-bundles": "ncp public-components/dist apps/app/public/dist && node notify-script.js"
+  },
+  "workspaces": [
+    "apps/*",
+    "public-components/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ncp": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}

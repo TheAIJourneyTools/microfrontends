@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "outDir": "public-components/dist",
+    "declaration": true,
+    "declarationDir": "public-components/dist"
+  },
+  "include": ["public-components/**/*"]
+}

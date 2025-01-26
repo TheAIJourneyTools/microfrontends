@@ -1,0 +1,13 @@
+{
+  "name": "bundles-manager",
+  "version": "1.0.0",
+  "main": "dist/Dashboard.js",
+  "types": "dist/Dashboard.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.0"
+  },
+  "type": "module"
+}
